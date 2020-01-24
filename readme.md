@@ -1,2 +1,10 @@
-FOSS LAB
+^z
+
+
+nano num.txt
+
+
+
+
+clear
 

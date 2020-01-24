@@ -1,0 +1,83 @@
+Script started on Friday 24 January 2020 11:57:50 AM IST
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ ls
+[0m[01;34m2401[0m  readme.md
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ ls-l
+ls-l: command not found
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ ls-lt[C[K l[C
+No command 'ls-' found, did you mean:
+ Command 'lsh' from package 'lsh-client' (universe)
+ Command 'ls' from package 'coreutils' (main)
+ Command 'lsw' from package 'suckless-tools' (universe)
+ Command 'lsx' from package 'suckless-tools' (universe)
+ls-: command not found
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ ls -l
+total 8
+drwxrwxr-x 2 s4c1 s4c1 4096 Jan 24 11:58 [0m[01;34m2401[0m
+-rw-rw-r-- 1 s4c1 s4c1   29 Jan 24 11:19 readme.md
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ ls -lt
+total 8
+drwxrwxr-x 2 s4c1 s4c1 4096 Jan 24 11:58 [0m[01;34m2401[0m
+-rw-rw-r-- 1 s4c1 s4c1   29 Jan 24 11:19 readme.md
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ ls -ltr
+total 8
+-rw-rw-r-- 1 s4c1 s4c1   29 Jan 24 11:19 readme.md
+drwxrwxr-x 2 s4c1 s4c1 4096 Jan 24 11:58 [0m[01;34m2401[0m
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ cat work.txt
+cat: work.txt: No such file or directory
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ cat test.txt
+cat: test.txt: No such file or directory
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ cat script.txt
+cat: script.txt: No such file or directory
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ cat readme.txt
+cat: readme.txt: No such file or directory
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ cat readme.md
+^z
+
+
+nano num.txt
+
+
+
+
+clear
+
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ sort -n num.txt
+sort: cannot read: num.txt: No such file or directory
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ nano num.txt
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: num.txt                                    [23;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[24d(B[0;7m^X(B[m Exit[24;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell[3d[1;70H(B[0;7mModified[3d(B[m1 [4d6[5d4[6d9[7d2[8d7[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                   [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [24;16H (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: num.txt                                 [23d^G(B[m Get Help    (B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^T(B[m To Files[22;28H[?25l[31G[39;49m(B[m[1K (B[0;7m[ Wrote 6 lines ](B[m[K[8d7[22d[J[1;70H(B[0;7m        [24;79H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ sort -n num.txt
+1 
+2
+4
+6
+7
+9
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ sort -nk7 num.txt
+1 
+2
+4
+6
+7
+9
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ nano name1.txt
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: name1.txt                                  [23;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[24d(B[0;7m^X(B[m Exit[24;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell[3d[1;70H(B[0;7mModified[3d(B[mdevika[4dseba[5dremya[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                   [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [24;16H (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: name1.txt                               [23d^G(B[m Get Help    (B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^T(B[m To Files[22;30H[?25l[C[39;49m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[5;6H[22d[J[1;70H(B[0;7m        [24;79H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ cut f3-
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ cut -f3 nam1[Ke1.txt
+devika
+seba
+remya
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ [K]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232[00m$ unalias ||
+> exit
+unalias: usage: unalias [-a] name [name ...]
+exit
+
+Script done on Friday 24 January 2020 12:05:21 PM IST
