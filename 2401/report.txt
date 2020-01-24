@@ -1,0 +1,37 @@
+CEC CS 18 037
+Devika J
+
+Date:24-01-2020
+
+
+
+#1: Git Tutorials
+
+Work file:test.txt
+
+Input:script.txt
+
+
+Output:Added a file to Git
+
+
+
+Remarks:Learned how to create a repository,create a file and push to Github
+
+
+-------------------------------------
+-------------------------------------
+
+#2:Linux Commands
+
+Work file:work.txt
+
+
+Input file:num.txt,name.txt
+
+
+Output:Added files to git
+
+Remarks:Learned how to use linux commands
+
+
