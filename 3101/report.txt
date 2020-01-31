@@ -1,0 +1,28 @@
+CEC CS 18 C15
+Devika J
+
+--------------------------------
+#1: Scripting task
+---------------------------------
+
+Command/Shell Script/Program Name
+---------------------------------
+
+Input: Downloaded pdf file of S1 2018 results
+       result_CHN.pdf
+       pdftotext -layout result_CHN.pdf
+       grep CHN18CS "result_CHN.txt">S1Cres.txt
+       cat S1Cres.txt 
+       gedit script.py
+
+--------------------------------
+Output:result_CHN.txt
+       S1Cres.txt
+       Obtained the number of students who failed
+
+
+
+Remarks:Learned how to convert pdf to text
+
+
+

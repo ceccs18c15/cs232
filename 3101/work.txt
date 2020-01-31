@@ -1,0 +1,205 @@
+Script started on Friday 31 January 2020 09:54:25 AM IST
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ cd 3101
+bash: cd: 3101: No such file or directory
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ pdftotext -layout resukt[K[Klt_CHN.pdf
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ man grep
+[?1049h[?1h=GREP(1)                     General Commands Manual                    GREP(1)[m
+[m
+[1mNAME[0m[m
+       grep, egrep, fgrep, rgrep - print lines matching a pattern[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgrep[0m [[4mOPTIONS[24m] [4mPATTERN[24m [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTIONS[24m] [[1m-e[0m [4mPATTERN[24m]...  [[1m-f[0m [4mFILE[24m]...  [[4mFILE[24m...][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mgrep[0m searches the named input [4mFILE[24ms for lines containing a match to the[m
+       given [4mPATTERN[24m.  If no files are specified, or if the file “[1m-[0m” is given,[m
+       [1mgrep[0m  searches  standard  input.   By default, [1mgrep[0m prints the matching[m
+       lines.[m
+[m
+       In addition, the variant programs [1megrep[0m, [1mfgrep[0m and [1mrgrep[0m are  the  same[m
+       as  [1mgrep[0m [1m-E[0m,  [1mgrep[0m [1m-F[0m,  and  [1mgrep[0m [1m-r[0m, respectively.  These variants are[m
+       deprecated, but are provided for backward compatibility.[m
+[m
+[1mOPTIONS[0m[m
+   [1mGeneric[0m [1mProgram[0m [1mInformation[0m[m
+       [1m--help[0m Output a usage message and exit.[m
+[m
+[7m Manual page grep(1) line 1 (press h for help or q to quit)[27m[K[K       [1m-V[0m, [1m--version[0m[m
+[7m Manual page grep(1) line 2 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ 
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ h[Kgrep CHN18CS "filename" > S1Cres. txt[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kresult_CHN.txt">S1C res.txt
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ cat re[K[Ks![K1[K[KS1Cres.txt 
+CHN18CS001   MA101(B+), PH100(A), BE110(B), BE10105(F), BE103(C), EE100(B), PH110(A), EE110(B+),
+CHN18CS002   MA101(C), PH100(F), BE110(F), BE10105(F), BE103(C), EE100(F), PH110(A+), EE110(B+),
+CHN18CS003   MA101(A+), PH100(A+), BE110(O), BE10105(O), BE103(A), EE100(O), PH110(A+), EE110(A),
+CHN18CS004   MA101(B+), PH100(A), BE110(O), BE10105(O), BE103(B), EE100(A+), PH110(A+), EE110(A),
+CHN18CS005   MA101(C), PH100(C), BE110(O), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(A),
+CHN18CS006   MA101(F), PH100(C), BE110(B), BE10105(F), BE103(C), EE100(F), PH110(B), EE110(B+),
+CHN18CS007   MA101(B+), PH100(B), BE110(O), BE10105(A+), BE103(B), EE100(B+), PH110(A+), EE110(A+),
+CHN18CS008   MA101(B), PH100(C), BE110(B+), BE10105(A+), BE103(B), EE100(B), PH110(A+), EE110(A),
+CHN18CS009   MA101(A+), PH100(O), BE110(A+), BE10105(B), BE103(A), EE100(A+), PH110(A), EE110(B+),
+CHN18CS010   MA101(O), PH100(A+), BE110(O), BE10105(A), BE103(B+), EE100(A+), PH110(A), EE110(A),
+CHN18CS011   MA101(F), PH100(B), BE110(B), BE10105(C), BE103(B+), EE100(B), PH110(A+), EE110(A),
+CHN18CS012   MA101(B), PH100(B+), BE110(A+), BE10105(C), BE103(B+), EE100(B+), PH110(A+),
+CHN18CS013   MA101(F), PH100(P), BE110(A), BE10105(F), BE103(B), EE100(B), PH110(A+), EE110(A+),
+CHN18CS014   MA101(F), PH100(F), BE110(B), BE10105(B), BE103(C), EE100(F), PH110(A), EE110(B+),
+CHN18CS015   MA101(F), PH100(F), BE110(B+), BE10105(F), BE103(B), EE100(F), PH110(A), EE110(A),
+CHN18CS016   MA101(B+), PH100(O), BE110(O), BE10105(B), BE103(B), EE100(A), PH110(A+), EE110(A+),
+CHN18CS017   MA101(B+), PH100(B+), BE110(A+), BE10105(A+), BE103(B+), EE100(B+), PH110(O),
+CHN18CS018   MA101(O), PH100(O), BE110(O), BE10105(O), BE103(B+), EE100(A+), PH110(A+), EE110(B+),
+CHN18CS019   MA101(F), PH100(B+), BE110(B), BE10105(C), BE103(C), EE100(B), PH110(A), EE110(O),
+CHN18CS020   MA101(A), PH100(A+), BE110(O), BE10105(B+), BE103(B+), EE100(O), PH110(O), EE110(A),
+CHN18CS021   MA101(B), PH100(A+), BE110(O), BE10105(B+), BE103(A), EE100(B+), PH110(A+), EE110(A),
+CHN18CS022   MA101(F), PH100(F), BE110(B), BE10105(B+), BE103(C), EE100(F), PH110(A+), EE110(B+),
+CHN18CS023   MA101(C), PH100(B), BE110(A+), BE10105(A+), BE103(B), EE100(C), PH110(A+), EE110(B+),
+CHN18CS024   MA101(F), PH100(C), BE110(A), BE10105(F), BE103(B), EE100(F), PH110(A+), EE110(B+),
+CHN18CS025   MA101(B), PH100(B+), BE110(A+), BE10105(B), BE103(A), EE100(B), PH110(B+), EE110(A),
+CHN18CS026   MA101(O), PH100(B+), BE110(B+), BE10105(B+), BE103(B), EE100(A+), PH110(O), EE110(B+),
+CHN18CS027   MA101(F), PH100(F), BE110(B+), BE10105(F), BE103(C), EE100(C), PH110(O), EE110(A),
+CHN18CS028   MA101(C), PH100(F), BE110(A+), BE10105(C), BE103(F), EE100(C), PH110(O), EE110(A),
+CHN18CS029   MA101(A+), PH100(A+), BE110(O), BE10105(B+), BE103(A+), EE100(O), PH110(A+), EE110(A),
+CHN18CS030   MA101(B+), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B+), PH110(A), EE110(A),
+CHN18CS031   MA101(F), PH100(C), BE110(O), BE10105(C), BE103(C), EE100(F), PH110(A+), EE110(B+),
+CHN18CS032   MA101(B), PH100(A), BE110(B+), BE10105(B), BE103(B), EE100(B+), PH110(A), EE110(B+),
+CHN18CS033   MA101(O), PH100(O), BE110(O), BE10105(B+), BE103(B+), EE100(O), PH110(A+), EE110(A),
+CHN18CS034   MA101(F), PH100(C), BE110(B+), BE10105(F), BE103(B+), EE100(B), PH110(A+), EE110(B+),
+CHN18CS035   MA101(O), PH100(A), BE110(O), BE10105(B+), BE103(B+), EE100(O), PH110(O), EE110(B+),
+CHN18CS036   MA101(B), PH100(A+), BE110(B+), BE10105(B+), BE103(A), EE100(O), PH110(A+), EE110(A),
+CHN18CS037   MA101(A+), PH100(B+), BE110(O), BE10105(C), BE103(B), EE100(A), PH110(A+), EE110(A),
+CHN18CS038   MA101(B+), PH100(A+), BE110(B+), BE10105(B), BE103(A), EE100(A+), PH110(A+), EE110(A),
+CHN18CS039   MA101(A), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B+), PH110(A+), EE110(B+),
+CHN18CS040   MA101(F), PH100(F), BE110(B+), BE10105(C), BE103(C), EE100(F), PH110(A+), EE110(B+),
+CHN18CS041   MA101(F), PH100(F), BE110(B), BE10105(F), BE103(B), EE100(F), PH110(A+), EE110(B+),
+CHN18CS042   MA101(C), PH100(B), BE110(A), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(A),
+CHN18CS043   MA101(B+), PH100(B), BE110(B+), BE10105(B), BE103(B), EE100(B+), PH110(A+), EE110(A),
+CHN18CS044   MA101(P), PH100(C), BE110(F), BE10105(C), BE103(C), EE100(C), PH110(A), EE110(B+),
+CHN18CS045   MA101(F), PH100(B+), BE110(A+), BE10105(B), BE103(B), EE100(B+), PH110(A), EE110(A+),
+CHN18CS046   MA101(F), PH100(C), BE110(O), BE10105(F), BE103(B), EE100(C), PH110(O), EE110(B+),
+CHN18CS047   MA101(C), PH100(C), BE110(A+), BE10105(F), BE103(C), EE100(B), PH110(A), EE110(B+),
+CHN18CS048   MA101(F), PH100(F), BE110(A+), BE10105(F), BE103(B), EE100(F), PH110(A+), EE110(B+),
+CHN18CS049   MA101(A), PH100(A+), BE110(O), BE10105(B+), BE103(B), EE100(B+), PH110(A), EE110(B+),
+CHN18CS050   MA101(F), PH100(P), BE110(C), BE10105(F), BE103(C), EE100(F), PH110(A), EE110(B+),
+CHN18CS051   MA101(F), PH100(B+), BE110(B+), BE10105(F), BE103(A), EE100(B), PH110(A+), EE110(B+),
+CHN18CS052   MA101(F), PH100(F), BE110(B), BE10105(F), BE103(F), EE100(F), PH110(B+), EE110(B+),
+CHN18CS053   MA101(B), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B), PH110(A+), EE110(A),
+CHN18CS054   MA101(A+), PH100(A+), BE110(A+), BE10105(B), BE103(A), EE100(O), PH110(A+), EE110(A+),
+CHN18CS055   MA101(B+), PH100(B+), BE110(A), BE10105(F), BE103(B+), EE100(B+), PH110(A+), EE110(B+),
+CHN18CS056   MA101(B), PH100(A), BE110(O), BE10105(C), BE103(B+), EE100(A+), PH110(A+), EE110(B+),
+CHN18CS057   MA101(B), PH100(B+), BE110(A), BE10105(C), BE103(B+), EE100(B), PH110(O), EE110(B+),
+CHN18CS058   MA101(A+), PH100(A), BE110(A+), BE10105(C), BE103(B+), EE100(O), PH110(A), EE110(A),
+CHN18CS059   MA101(A), PH100(A+), BE110(O), BE10105(A), BE103(A), EE100(O), PH110(O), EE110(O),
+CHN18CS060   MA101(C), PH100(F), BE110(A+), BE10105(B), BE103(B), EE100(C), PH110(A), EE110(B+),
+CHN18CS061   MA101(F), PH100(C), BE110(A), BE10105(A), BE103(B), EE100(F), PH110(A+), EE110(B+),
+CHN18CS062   MA101(O), PH100(A+), BE110(O), BE10105(B), BE103(B), EE100(O), PH110(A+), EE110(A),
+CHN18CS063   MA101(A+), PH100(A), BE110(A+), BE10105(B), BE103(B), EE100(A), PH110(A+), EE110(B+),
+CHN18CS064   MA101(F), PH100(B), BE110(A+), BE10105(C), BE103(C), EE100(B), PH110(B+), EE110(B+),
+CHN18CS065   MA101(F), PH100(F), BE110(B), BE10105(F), BE103(B), EE100(Absent), PH110(A+), EE110(A),
+CHN18CS066   MA101(F), PH100(C), BE110(A), BE10105(F), BE103(B), EE100(C), PH110(A+), EE110(B+),
+CHN18CS067   MA101(F), PH100(B), BE110(B+), BE10105(C), BE103(B+), EE100(B), PH110(A+), EE110(A),
+CHN18CS068   MA101(B), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B), PH110(A), EE110(B+),
+CHN18CS069   MA101(B), PH100(B+), BE110(A+), BE10105(C), BE103(B), EE100(A+), PH110(A+), EE110(A+),
+CHN18CS070   MA101(F), PH100(B), BE110(B), BE10105(C), BE103(B), EE100(C), PH110(A), EE110(A),
+CHN18CS071   MA101(F), PH100(C), BE110(B), BE10105(F), BE103(F), EE100(B), PH110(A+), EE110(B+),
+CHN18CS072   MA101(B+), PH100(B+), BE110(A+), BE10105(A+), BE103(B+), EE100(A+), PH110(A+),
+CHN18CS073   MA101(B+), PH100(A+), BE110(A), BE10105(B+), BE103(A), EE100(O), PH110(A), EE110(A+),
+CHN18CS074   MA101(C), PH100(F), BE110(B+), BE10105(F), BE103(B+), EE100(F), PH110(A+), EE110(B+),
+CHN18CS075   MA101(B), PH100(B), BE110(O), BE10105(B+), BE103(B), EE100(A), PH110(B+), EE110(B),
+CHN18CS076   MA101(C), PH100(F), BE110(B+), BE10105(B), BE103(B), EE100(C), PH110(A), EE110(B+),
+CHN18CS077   MA101(O), PH100(O), BE110(O), BE10105(B+), BE103(A), EE100(A), PH110(A), EE110(B+),
+CHN18CS078   MA101(F), PH100(B), BE110(A+), BE10105(B+), BE103(B+), EE100(B), PH110(A), EE110(B+),
+CHN18CS079   MA101(B+), PH100(B), BE110(A), BE10105(B), BE103(B), EE100(B), PH110(A), EE110(B+),
+CHN18CS080   MA101(O), PH100(O), BE110(O), BE10105(B+), BE103(A+), EE100(A), PH110(O), EE110(A),
+CHN18CS081   MA101(B+), PH100(C), BE110(F), BE10105(F), BE103(C), EE100(C), PH110(A), EE110(B),
+CHN18CS082   MA101(B), PH100(C), BE110(O), BE10105(A), BE103(B), EE100(C), PH110(A), EE110(B+),
+CHN18CS083   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(A), EE100(B), PH110(A+), EE110(A),
+CHN18CS084   MA101(B), PH100(B), BE110(A), BE10105(B), BE103(B), EE100(C), PH110(A+), EE110(A),
+CHN18CS085   MA101(F), PH100(F), BE110(B+), BE10105(B+), BE103(C), EE100(F), PH110(O), EE110(A+),
+CHN18CS086   MA101(F), PH100(C), BE110(B), BE10105(B), BE103(B), EE100(B), PH110(A), EE110(B+),
+CHN18CS087   MA101(O), PH100(O), BE110(O), BE10105(A+), BE103(A), EE100(O), PH110(A+), EE110(A+),
+CHN18CS088   MA101(C), PH100(B), BE110(B+), BE10105(F), BE103(B), EE100(B), PH110(A+), EE110(A),
+CHN18CS089   MA101(C), PH100(B), BE110(B+), BE10105(F), BE103(B), EE100(B), PH110(A+), EE110(A),
+CHN18CS090   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(B), EE100(F), PH110(B+), EE110(A),
+CHN18CS091   MA101(O), PH100(O), BE110(A+), BE10105(C), BE103(O), EE100(A), PH110(A+), EE110(A+),
+CHN18CS092   MA101(A), PH100(A+), BE110(A+), BE10105(B+), BE103(B+), EE100(A), PH110(O), EE110(A),
+CHN18CS093   MA101(O), PH100(O), BE110(O), BE10105(A+), BE103(A+), EE100(O), PH110(O), EE110(A),
+CHN18CS094   MA101(C), PH100(B), BE110(B), BE10105(F), BE103(C), EE100(C), PH110(O), EE110(A),
+CHN18CS095   MA101(A+), PH100(A), BE110(A+), BE10105(A+), BE103(A+), EE100(O), PH110(A+), EE110(A),
+CHN18CS096   MA101(B), PH100(B), BE110(B+), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(B+),
+CHN18CS097   MA101(B), PH100(B), BE110(A+), BE10105(C), BE103(B), EE100(B+), PH110(O), EE110(A),
+CHN18CS098   MA101(F), PH100(F), BE110(A), BE10105(C), BE103(B), EE100(F), PH110(A), EE110(B),
+CHN18CS099   MA101(A+), PH100(A+), BE110(A+), BE10105(B+), BE103(A), EE100(O), PH110(A+),
+CHN18CS100   MA101(B+), PH100(B+), BE110(O), BE10105(A), BE103(A+), EE100(A), PH110(A+), EE110(A),
+CHN18CS101   MA101(C), PH100(B), BE110(A), BE10105(B), BE103(B+), EE100(B+), PH110(A), EE110(A),
+CHN18CS102   MA101(B), PH100(A+), BE110(A+), BE10105(C), BE103(A), EE100(O), PH110(A), EE110(A),
+CHN18CS103   MA101(A+), PH100(A+), BE110(O), BE10105(B+), BE103(B+), EE100(A+), PH110(O),
+CHN18CS104   MA101(A), PH100(B+), BE110(O), BE10105(O), BE103(A), EE100(O), PH110(A+), EE110(B+),
+CHN18CS105   MA101(B), PH100(B+), BE110(O), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(A+),
+CHN18CS106   MA101(C), PH100(C), BE110(B), BE10105(C), BE103(C), EE100(B), PH110(A), EE110(B+),
+CHN18CS107   MA101(C), PH100(C), BE110(O), BE10105(F), BE103(B), EE100(A), PH110(A+), EE110(B),
+CHN18CS108   MA101(F), PH100(F), BE110(B+), BE10105(F), BE103(B), EE100(B), PH110(A), EE110(B+),
+CHN18CS109   MA101(F), PH100(B), BE110(A), BE10105(F), BE103(B), EE100(P), PH110(A+), EE110(B+),
+CHN18CS110   MA101(C), PH100(C), BE110(B+), BE10105(F), BE103(B), EE100(C), PH110(B), EE110(B+),
+CHN18CS111   MA101(B+), PH100(B+), BE110(B+), BE10105(B+), BE103(B+), EE100(B+), PH110(A+),
+CHN18CS112   MA101(A), PH100(B+), BE110(B+), BE10105(C), BE103(B), EE100(B), PH110(A), EE110(A+),
+CHN18CS113   MA101(B+), PH100(A), BE110(O), BE10105(B), BE103(B), EE100(A), PH110(A+), EE110(A),
+CHN18CS114   MA101(C), PH100(A), BE110(A+), BE10105(F), BE103(B+), EE100(B+), PH110(A+), EE110(A+),
+CHN18CS115   MA101(A+), PH100(A), BE110(O), BE10105(C), BE103(B+), EE100(O), PH110(A), EE110(A),
+CHN18CS116   MA101(B+), PH100(B+), BE110(O), BE10105(C), BE103(B+), EE100(B+), PH110(O), EE110(B+),
+CHN18CS117   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(C), EE100(F), PH110(B), EE110(B),
+CHN18CS118   MA101(C), PH100(B), BE110(O), BE10105(B+), BE103(B+), EE100(B), PH110(A), EE110(B+),
+CHN18CS119   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(C), EE100(F), PH110(A), EE110(B),
+CHN18CS120   MA101(C), PH100(C), BE110(B), BE10105(C), BE103(C), EE100(C), PH110(A), EE110(A),
+CHN18CS121   MA101(B), PH100(A), BE110(A), BE10105(B), BE103(B+), EE100(B), PH110(O), EE110(B+),
+CHN18CS122   MA101(B+), PH100(A), BE110(O), BE10105(B), BE103(B+), EE100(B), PH110(O), EE110(A),
+CHN18CS123   MA101(O), PH100(B+), BE110(O), BE10105(A+), BE103(C), EE100(B), PH110(O), EE110(A+),
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ gedit script.py
+^[[A^[[A^[[A^C
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ gedit script.py[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kimport pprint [K,re
+^[[A^[[A^[[A^[[A^[[B^C]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ import pprint,re[Kcat S1Cres.txt [Kimport pprint,re[K[K]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ import pprint,re[Kcat S1Cres.txt grep CHN18CS "result_CHN.txt">S1Cres.txtman grep[Kgrep CHN18CS "result_CHN.txt">S1Cres.txt[25Pcat S1Cres.txt [Kimport pprint,re[Kgedit scxript[1Pript[C[C[C[C.py
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ gedit script.py
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ python script.py
+  File "script.py", line 1
+    import pprint,re
+    ^
+IndentationError: unexpected indent
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ python script.py[1Pgedit[C[C[C[C[C[C[C[C[C[Cimport pprint,re[Kimport pprint,re[Kcat S1Cres.txt grep CHN18CS "result_CHN.txt">S1Cres.txt[25Pcat S1Cres.txt grep CHN18CS "result_CHN.txt">S1Cres.txtman grep[Kpdftotext -layout result_CHN.pdfman grep[Kgrep CHN18CS "result_CHN.txt">S1Cres.txt[25Pcat S1Cres.txt [Kimport pprint,re[1Pgedit script.py[1@python[C[C[C[C[C[C[C[C[C[C[Kgedit script.py
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ gedit script.py[1@python[C[C[C[C[C[C[C[C[C[C
+  File "script.py", line 13
+    failed+=1
+         ^
+IndentationError: expected an indented block
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ python script.py[1Pgedit[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ gedit script.py[1@python[C[C[C[C[C[C[C[C[C[C
+  File "script.py", line 13
+    failed+=1
+         ^
+IndentationError: expected an indented block
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ python script.py
+  File "script.py", line 13
+    failed+=1
+         ^
+IndentationError: expected an indented block
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ python script.py[1Pgedit[C[C[C[C[C[C[C[C[C[C[1@python[C[C[C[C[C[C[C[C[C[C[1Pgedit[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ gedit script.py\python script.py
+'/home/s4c1/ceccs18c15/cs232/3101/result_CHN.txt' 
+[]
+Traceback (most recent call last):
+  File "script.py", line 15, in <module>
+    studdic[i.split()[0]]=cgpacal(i.split()[1:]) 
+IndexError: list index out of range
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ python script.py
+'/home/s4c1/ceccs18c15/cs232/3101/S1Cres.txt' 
+['MA101(O),', 'PH100(B+),', 'BE110(O),', 'BE10105(A+),', 'BE103(C),', 'EE100(B),', 'PH110(O),', 'EE110(A+),']
+52
+{'CHN18CS123': None}
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ python script.pygedit script.py\
+> gedit script.py\[C[C[K
+^[[B    
+^[[A    ^[[A^[[A        ^[[A^[[A        
+	` ^C
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ gedit script.py\python script.py[1Pgedit[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/3101[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/3101[00m$ gedit script.py\[K[1@python[C[C[C[C[C[C[C[C[C[C
+'/home/s4c1/ceccs18c15/cs232/3101/S1Cres.txt' 
+['MA101(O),', 'PH100(B+),', 'B
