@@ -1,0 +1,59 @@
+CEC CS 18 C15
+Devika J
+
+--------------------------------
+#1: Scripting task continued
+---------------------------------
+
+Command/Shell Script/Program Name
+---------------------------------
+
+Input: Downloaded pdf file of s2 2019 results
+       result_CHN.pdf
+       pdftotext -layout result_CHN.pdf
+       grep CHN18CS "result_CHN.txt">S2Cres.txt
+       cat S1Cres.txt 
+       gedit sample.py
+
+--------------------------------
+Output:result_CHN.txt
+       S2Cres.txt
+       calculated the cgpa:file:sample.py
+
+
+
+Remarks:Completed the task 2.Didnt receive the document with name and register number.
+        Displayed the register number with sgpa and number of subjects failed
+
+---------------------------------
+
+#2: Networking tasks (t3)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	ifconfig -a
+	route -n
+	route add default gw 192.168.0.2
+	ping 192.168.0.1 		
+	cat /etc/resolv.conf
+	echo "nameserver 1.1.1.1" >> resolv.conf
+	
+
+--------------------------------
+Output: 
+
+	# ifconfig -a displays all available network interfaces
+	
+	# route -n displays kernal routing table
+	
+	# route add, is used add a new route to the table,
+	# route add default gw 192.168.0.2, a default gateway in this case
+
+	# echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+	# to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver configuration
+
+--------------------------------
+
+Remarks:The student user wasnt in the studoers list.I couldnt manipulate the routing table or access the resolv.conf. 
