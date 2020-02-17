@@ -9,7 +9,7 @@ Devika J
 Command/Shell script/Program name
 ---------------------------------
 	
-	sftp cs18c47@192.168.0.30
+	sftp cs18c15@192.168.0.30
 	put report.txt
 	lcd ..
 	lpwd
