@@ -10,11 +10,7 @@ Command/Shell script/Program name
 ---------------------------------
 	
 	sftp cs18c15@192.168.0.30
-	put report.txt
-	lcd ..
-	lpwd
-	get work.txt
-	rm work.txt
+	put file.txt
 	quit
 
 --------------------------------
