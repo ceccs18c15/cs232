@@ -57,3 +57,7 @@ Output:
 --------------------------------
 
 Remarks:The student user wasnt in the studoers list.I couldnt manipulate the routing table or access the resolv.conf. 
+
+
+--------------------------------
+

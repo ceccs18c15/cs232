@@ -1,0 +1,60 @@
+CEC CS 18 C15
+Devika J
+
+---------------------------------
+
+#1: Ftp usage (t5)
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+	
+	sftp cs18c47@192.168.0.30
+	put report.txt
+	lcd ..
+	lpwd
+	get work.txt
+	rm work.txt
+	quit
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+	# sftp cs18c15@192.168.0.30, connect to host 192.168.0.30 via sftp
+
+	# put file.txt, upload file.txt
+
+	# quit, quit current ftp session
+
+
+-------------------
+Remarks if any:
+		
+
+-------------------------------------
+-------------------------------------
+
+
+--------------------------------
+#2: Further Networking tasks (t4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	ssh
+	rsync
+	scp
+
+--------------------------------
+Output: 
+
+	# ssh cs18c15@192.168.0.30, is used to open a secured connection to remote device
+	
+	# rsync /home/s4c1/ceccs18c15/cs232/1702/temp1.txt cs18c15@192.168.0.30:1702,to upload temp1.txt to 1702
+	
+	# scp temp1.txt cs18c15@192.168.0.30:2701, this is used to upload temp1.txt to 1702/ in the host 192.168.0.30
+
+--------------------------------
+Remarks if any: 
+
