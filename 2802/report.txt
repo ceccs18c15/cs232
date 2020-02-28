@@ -1,0 +1,25 @@
+CEC CS 18 C15
+Devika J
+
+--------------------------------
+#1: (t9) Create own web page at our server
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+	$ script work.txt
+	Script started, file is work.txt
+	$ nano index.html
+	$ exit
+	exit
+	Script done, file is work.txt
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+	The new webpage is created at 192.168.0.30/cs18c/cs18c15.
+
+
+-------------------
+Remarks if any:
+

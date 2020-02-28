@@ -27,10 +27,13 @@ work.txt
 sftp> cd 1702
 sftp> put file.txt
 Uploading file.txt to /home/cs18c15/1702/file.txt
-file.txt                                        0%    0     0.0KB/s   --:-- ETAfile.txt                                      100%   45     0.0KB/s   00:00    
+
+file.txt                                        0%    0     0.0KB/s   --:-- ETA
+file.txt                                      100%   45     0.0KB/s   00:00    
 sftp> rm report.txt
 Removing /home/cs18c15/1702/report.txt
-Couldn't delete file: No such file or directory
+Couldn't delete file: No such file or directory
+
 sftp> quit
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ sftp [K cs18c15@192.168.0.30
 .
@@ -49,11 +52,14 @@ cp: cannot stat 'temp1.txt': No such file or directory
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ scp temp1.txt ask@14.139.184.215[17Pgedit temp1.txt
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ gedit temp1.txtscp temp1.txt ask@14.139.184.215
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ ssh askcp temp1.txt ask@14.139.184.215[17Pgedit temp1.txtscp temp1.txt ask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215[1Pask@14.139.184.215sask@14.139.184.215sask@14.139.184.215hask@14.139.184.215 ask@14.139.184.215[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-ssh: connect to host 14.139.184.215 port 22: Network is unreachable
+ssh: connect to host 14.139.184.215 port 22: Network is unreachable
+
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ ssh ask@198.162.0.30
-ssh: connect to host 198.162.0.30 port 22: Network is unreachable
+ssh: connect to host 198.162.0.30 port 22: Network is unreachable
+
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ ssh ask@198.162.0.30task@198.162.0.30eask@198.162.0.30mask@198.162.0.30oask@198.162.0.30lask@198.162.0.301ask@198.162.0.30[1Pask@198.162.0.30[1Pask@198.162.0.30[1Pask@198.162.0.30pask@198.162.0.301ask@198.162.0.30.ask@198.162.0.30task@198.162.0.30xask@198.162.0.30task@198.162.0.30 ask@198.162.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-ssh: Could not resolve hostname temp1.txt: Temporary failure in name resolution
+ssh: Could not resolve hostname temp1.txt: Temporary failure in name resolution
+
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ ssh cs18c14@192.168.0.30[1P@192.168.0.30[1P@192.168.0.301@192.168.0.305@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C
 .
               |
@@ -68,7 +74,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Fri Feb  7 12:07:03 2020 from 192.168.0.162
+Last login: Fri Feb  7 12:07:03 2020 from 192.168.0.162
+
 $ ^Z^Z^X
 -sh: 1: : not found
 $ rsync -av 2701/ test/^[[D^[[D        ^[[D               1702/ test/
@@ -83,7 +90,8 @@ $ scp temp1.txt cs18c15@192.168.0.0 30:1702
 The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
 ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
 Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -92,7 +100,8 @@ Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
 cs18c15@192.168.0.30's password: 
 temp1.txt: No such file or directory
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ ssh cs18c15@192.168.0.30
 .
               |
@@ -100,7 +109,8 @@ Connection to 192.168.0.30 closed.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c15@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cs18c15@192.168.0.30's password: 
 Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 
@@ -109,7 +119,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 09:57:47 2020 from 192.168.0.162
+Last login: Mon Feb 17 09:57:47 2020 from 192.168.0.162
+
 $ rsync -avb 1702/^[[D^[[D                1702/
 sending incremental file list
 drwxr-xr-x          4,096 2020/02/17 09:38:03 .
@@ -126,7 +137,8 @@ $ scp temp1.txt cs18c15@192.168.0.30:1702
 cs18c15@192.168.0.30's password: 
 temp1.txt: No such file or directory
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ ssh cs18c15@192.168.0.30temp1.txt ask@198.162.0.30[10Pask@198.162.0.304.139.184.215[10@cp temp1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pgedit temp1.txtscp temp1.txt ask@14.139.184.215[17Pgedit temp1.txtscp temp1.txt ask@14.139.184.215[10Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P98.162.0.30temp1.txt ask@198.162.0.30[6Pcs18c15@192.168.0.30[Kssh cs18c15@192.168.0.30
 .
               |
@@ -141,7 +153,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 10:08:49 2020 from 192.168.0.162
+Last login: Mon Feb 17 10:08:49 2020 from 192.168.0.162
+
 $ rst ync^[[A    	-av 1702/temp1^[[D^[[D              temp1/
 sending incremental file list
 created directory temp1
@@ -159,7 +172,8 @@ $ scp file.txt cs18c15@192.169 8.0.30:1702
 cs18c15@192.168.0.30's password: 
 file.txt: No such file or directory
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ ssh cs18c15@192.168.0.30
 .
               |
@@ -174,7 +188,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 10:10:48 2020 from 192.168.0.162
+Last login: Mon Feb 17 10:10:48 2020 from 192.168.0.162
+
 $ rsync -av 1702/^[[D         0702/ work/
 sending incremental file list
 created directory work
@@ -189,9 +204,12 @@ $ scp work.txt scp       cs18c15@192.168.0.30; :01 702
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c15@192.168.0.30's password: 
-work.txt                                        0%    0     0.0KB/s   --:-- ETAwork.txt                                      100%   19KB  19.0KB/s   00:00    
+
+work.txt                                        0%    0     0.0KB/s   --:-- ETA
+work.txt                                      100%   19KB  19.0KB/s   00:00    
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ sftpsh cs18c15@192.168.0.30temp1.txt ask@198.162.0.30[10Pask@198.162.0.304.139.184.215[10@cp temp1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pgedit temp1.txtscp temp1.txt ask@14.139.184.215[17Pgedit temp1.txtsftp cs18c15@192.168.0.30[11Pgedit file.txtsftp cs18c15@192.168.0.30
 .
               |
@@ -206,17 +224,20 @@ examples.desktop    report.txt          resolv.conf         sample.py
 temp1               test                work                work.txt            
 sftp> rm test
 Removing /home/cs18c15/test
-Couldn't delete file: Failure
+Couldn't delete file: Failure
+
 sftp> rm work.txt
 Removing /home/cs18c15/work.txt
 sftp> rm work
 Removing /home/cs18c15/work
-Couldn't delete file: Failure
+Couldn't delete file: Failure
+
 sftp> cd 1702
 sftp> ls
 file.txt  
 sftp> cd 0702
-Couldn't stat remote file: No such file or directory
+Couldn't stat remote file: No such file or directory
+
 sftp> exit
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ sftp cs18c15@192.168.0.30
 .
@@ -230,10 +251,14 @@ sftp> cd0702 07020702
 sftp> ld[Ks
 work.txt  
 sftp> rsync -av 2701//[K/[K/[K/[K0/7/0/1//[K2//report.txt/[1@ rreport.txt/
-Invalid command.
+Invalid command.
+
 sftp> exit
-]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ rsync[K[K[K[K[Krsync /home/s4c1/ceccs18c15/cs232 /1702/temp1.txt cs18c15@192.168.0.30:[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksftp cs18c15@192.168.0.30[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ rsync[K[K[K[K[Krsync /home/s4c1/ceccs18c15/cs232 
+/1702/temp1.txt cs18c15@192.168.0.30:[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksftp cs18c15@192.168.0.30[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -247,7 +272,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 10:21:13 2020 from 192.168.0.162
+Last login: Mon Feb 17 10:21:13 2020 from 192.168.0.162
+
 $ rsync /home/s4c1/ceccs18c15/cs232/1702/temp1.txt cs18c14 5@192.168.0.30:1702
 .
               |
@@ -258,16 +284,21 @@ cs18c15@192.168.0.30's password:
 rsync: change_dir "/home/s4c1/ceccs18c15/cs232/1702" failed: No such file or directory (2)
 rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
 $ exit
-Connection to 192.168.0.30 closed.
-]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ ssh cs18c15@192.168.0.30[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctemp1.txt ask@198.162.0.30[10Pask@198.162.0.304.139.184.215[10@cp temp1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pgedit temp1.txtscp temp1.txt ask@14.139.184.215[17Pgedit temp1.txtscp temp1.txt ask@14.139.184.215[10Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P98.162.0.30temp1.txt ask@198.162.0.30[6Pcs18c15@192.168.0.30[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krsycn[K[Knc /home/s4c1/ceccs18c15/cs232 /1702/temp1.txt cs18c15@192/[K.168.0.30:1702
+Connection to 192.168.0.30 closed.
+
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ ssh cs18c15@192.168.0.30[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctemp1.txt ask@198.162.0.30[10Pask@198.162.0.304.139.184.215[10@cp temp1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pgedit temp1.txtscp temp1.txt ask@14.139.184.215[17Pgedit temp1.txtscp temp1.txt ask@14.139.184.215[10Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P98.162.0.30temp1.txt ask@198.162.0.30[6Pcs18c15@192.168.0.30[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krsycn[K[Knc /home/s4c1/ceccs18c15/cs232 
+/1702/temp1.txt cs18c15@192/[K.168.0.30:1702
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c15@192.168.0.30's password: 
-]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ sftp rsync /home/s4c1/ceccs18c15/cs232//1702/temp1.txt cs18c15@192.168.0.30:1702[A]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [9Pssh cs18c15@192.168.0.30
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ sftp rsync /home/s4c1/ceccs18c15/cs232/
+/1702/temp1.txt cs18c15@192.168.0.30:1702[A
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [9Pssh cs18c15@192.168.0.30
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -283,8 +314,11 @@ sftp> cd 1702
 sftp> ls
 file.txt   temp1.txt  
 sftp> exit
-]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ sftp cs18c15@192.168.0.30rsync /home/s4c1/ceccs18c15/cs232//1702/temp1.txt cs18c15@192.168.0.30:1702[A]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [9Pssh cs18c15@192.168.0.30
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ sftp cs18c15@192.168.0.30rsync /home/s4c1/ceccs18c15/cs232/
+/1702/temp1.txt cs18c15@192.168.0.30:1702[A
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [9Pssh cs18c15@192.168.0.30
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -298,7 +332,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 10:50:47 2020 from 192.168.0.162
+Last login: Mon Feb 17 10:50:47 2020 from 192.168.0.162
+
 $ ls
 0702  2401  examples.desktop  resolv.conf  temp1  work
 1702  3101  report.txt	      sample.py    test
@@ -306,17 +341,23 @@ $ cd1  1702
 $ ls
 file.txt  temp1.txt
 $ exit
-Connection to 192.168.0.30 closed.
-]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ scp temp1.txt [K cs18c154[K@192.168.0.3 0:1702
+Connection to 192.168.0.30 closed.
+
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ scp temp1.txt [K cs18c154[K@192.168.0.3 
+0:1702
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c15@192.168.0.30's password: 
-temp1.txt                                     100%    0     0.0KB/s   00:00    
-]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ scp temp1.txt cs18c15@192.168.0.300:1702[A]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [C[9Psh cs18c15@192.168.0.30
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+temp1.txt                                     100%    0     0.0KB/s   00:00    
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ scp temp1.txt cs18c15@192.168.0.30
+0:1702[A
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [C[9Psh cs18c15@192.168.0.30
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -330,7 +371,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 11:01:15 2020 from 192.168.0.162
+Last login: Mon Feb 17 11:01:15 2020 from 192.168.0.162
+
 $ ls
 0702  2401  examples.desktop  resolv.conf  temp1  work
 1702  3101  report.txt	      sample.py    test
@@ -338,18 +380,24 @@ $ cd 1702
 $ ls
 file.txt  temp1.txt
 $ exit
-Connection to 192.168.0.30 closed.
-]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ sss[Kh cs18c15@192.168.0.30cp temp1.txt cs18c15@192.168.0.300:1702[A]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [C[9Psh cs18c15@192.168.0.30
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Connection to 192.168.0.30 closed.
+
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ sss[Kh cs18c15@192.168.0.30cp temp1.txt cs18c15@192.168.0.30
+0:1702[A
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [C[9Psh cs18c15@192.168.0.30
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c15@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cs18c15@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cs18c15@192.168.0.30's password: 
 Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 
@@ -358,7 +406,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 11:11:48 2020 from 192.168.0.162
+Last login: Mon Feb 17 11:11:48 2020 from 192.168.0.162
+
 $ rsync -av          rsync -av 0702/ work/
 sending incremental file list
 ./
@@ -379,10 +428,19 @@ $ rm resolv.conf
 $ ls
 0702  1702  2401  3101	examples.desktop  temp1  test  work
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ 
-]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ git commit -m "First commit"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"T"a"s"k" "4"&"5" "c"o"m"p"l"a"t"e" [A]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"e"t"e" [A]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd""[C
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ git commit -m "First commit"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"T"a"s"k" "4"&"5" "c"o"m"p"l"a"t"e" [A
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr"
+"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"e"t"e" [A
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18c15/cs232/1702[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c15/cs232/1702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd"
+"
+[C
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Changes not staged for commit:
