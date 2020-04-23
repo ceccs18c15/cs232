@@ -1,0 +1,61 @@
+
+Script started on Thursday 23 April 2020 01:33:49 PM IST
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit var1.txt[K[K[Kpl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ fe[K[Kgedit while.pl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit while.pl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit while.pl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ perl while.pl
+54321
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit while.pl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ perl while.pl
+5	4	3	2	1	
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit count.pl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ perl count.pl
+Scalar found where operator expected at count.pl line 8, near ")
+		$even"
+	(Missing operator before $even?)
+syntax error at count.pl line 8, near ")
+		$even"
+Execution of count.pl aborted due to compilation errors.
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit count.pl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ perl count.pl
+Scalar found where operator expected at count.pl line 8, near ")
+		$even"
+	(Missing operator before $even?)
+syntax error at count.pl line 8, near ")
+		$even"
+Execution of count.pl aborted due to compilation errors.
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit 
+count.pl       helloworld.pl  while.pl~      work.txt       
+count.pl~      while.pl       work1.txt      
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit count.pl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ perl count.pl
+Number of even numbers is:6
+Number of odd numbers is:4]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit count.pl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ perl count.pl
+Number of even numbers is:6
+Number of odd numbers is:4
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit add.pl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ perl add.[[Kpl
+Scalar found where operator expected at add.pl line 3, near "$choice2"
+	(Missing semicolon on previous line?)
+Scalar found where operator expected at add.pl line 4, near "$res"
+	(Missing semicolon on previous line?)
+syntax error at add.pl line 3, near "$choice2"
+Execution of add.pl aborted due to compilation errors.
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit ad.pld.pl[C[C[C
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ perl add.pl
+Sum is:69
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit report.txt
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ exit
+exit
+
+Script done on Thursday 23 April 2020 02:21:03 PM IST
+Script started on Thursday 23 April 2020 04:35:10 PM IST
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ gedit helloworld.pl
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ pearl hello[1P[C[C[C[C[C[C[C[Cworld.pl
+Hello World
+]0;devi@devi-Inspiron-5537: ~/ceccs18c15/cs232/2304[01;32mdevi@devi-Inspiron-5537[00m:[01;34m~/ceccs18c15/cs232/2304[00m$ exit
+exit
+
+Script done on Thursday 23 April 2020 04:37:05 PM IST

@@ -1,0 +1,37 @@
+CEC CS 18 C15     23-04-2020
+Devika J
+
+--------------------------------
+#1: (t8) 2 Perl program
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+	Hello World program
+         helloworld.pl
+	Using while function
+	 while.pl
+	count number of odd and even numbers
+ 	 count.pl
+	Addition of two numbers
+	 add.pl
+---------------------------------
+
+Output: 
+
+	Output of helloworld Program
+	 helloworld
+
+	Output using while loop 
+	 5   4   3    2    1   
+
+	Output of count program
+  	 Number of even numbers is:6
+	 Number of odd numbers is:4 
+	 
+	Output of add program
+	 Sum is:69
+-------------------
+Remarks if any:
+
+
