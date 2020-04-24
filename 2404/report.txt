@@ -1,0 +1,107 @@
+CEC CS 18 C15
+DEVIKA J
+
+MAC Address:74:86:7a:30:e8:96
+
+--------------------------------
+#1: S6 - Shell script to implement a menu driven calculator
+
+1.  Addition 
+2.  Subtraction 
+3.  Multiplication 
+4.  Division 
+5.  Modulus
+
+---------------------------------
+Command/Shell script/Program name
+
+#Shell script:
+  calulator.sh
+
+
+---------------------------------
+
+Input & Output (whichever is applicable)
+
+     Read two numbers from user
+           34 and 21
+
+     All the operations are performed and output obtained
+      
+       Output of operations:
+	
+	1.Addition : 55
+	2.Subtraction : 13
+	3.Multiplication : 714
+	4.Division : 1
+	5.Modulus : 13
+
+
+
+-------------------
+Remarks if any:
+	
+	Screenshot of output are attached
+
+--------------------------------------------------------------------
+
+
+
+#2: S4 - Shell script to show various system configuration like :
+
+ 1.Currently logged user and his login name 
+ 2.Your current shell 
+ 3.Your home directory 
+ 4.Your operating system type 
+ 5.Your current path setting 
+ 6.Your current working directory 
+ 7.Number of users currently logged in 
+---------------------------------
+
+Input: (If relevant)
+---------------
+   systemconfig1.sh
+
+--------------------------------
+Output:
+
+   Various system configurations displayed
+
+-------------------
+Remarks if any:
+
+   Screenshot of the output is attached
+   Screenshot.png
+
+
+-----------------------------------------------------------
+
+
+#3: s5 - Shell  script to show various system configurations like 
+
+ 1.Your OS and version, release number, kernel version 
+ 2.All available shells 
+ 3.Computer CPU information like processor type, speed etc 
+ 4.Memory information 
+ 5.Hard disk information like size of hard-disk, cache memory, model etc 
+ 6.File system (Mounted) 
+
+----------------------------------------
+
+
+Input: 
+
+   systemconfig2.sh
+
+---------------------------------------
+
+Output:
+  
+   System Configurations are displayed
+
+----------------------------------------
+
+Remarks if any:
+   
+
+
